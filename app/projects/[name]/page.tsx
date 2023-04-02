@@ -24,6 +24,7 @@ const projects = [
     ],
     imageName: "CHATGPT-PJ.png",
     demoURL: "https://my-chatgpt-cg.vercel.app/",
+    codeURL: "https://github.com/CarlosPProjects/chatgpt-clone-cr"
   },
   {
     id: "project_02",
@@ -37,6 +38,7 @@ const projects = [
     languages: ["Next.js", "Typescript", "Tailwind", "React", "Weather API"],
     imageName: "WEATHER-PJ.png",
     demoURL: "https://min-weather-app.vercel.app/",
+    codeURL: "https://github.com/CarlosPProjects/min-weather-app"
   },
   {
     id: "project_03",
@@ -50,6 +52,7 @@ const projects = [
     languages: ["Wordpress", "WooCommerce", "WCFM", "Yith", "WPBakery"],
     imageName: "DIVERFY-PJ.png",
     demoURL: "https://diverfy.com/",
+    codeURL: ""
   },
 ];
 
@@ -92,11 +95,19 @@ const page = ({ params }: pageProps) => {
                     ))}
                   </div>
                   <Link
-                    href={project?.demoURL!}
+                    href={project.demoURL}
                     className="px-8 py-2 mt-4 mr-8 text-gray-100 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#14213d] to-[#222]"
                   >
                     <span>Demo</span>
                   </Link>
+                  {project.codeURL !== "" && (
+                    <Link
+                      href={project.codeURL}
+                      className="px-8 py-2 mt-4 mr-8 text-gray-100 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#14213d] to-[#222]"
+                    >
+                      <span>Code</span>
+                    </Link>
+                  )}
                 </div>
                 <div className="col-span-4 md:col-span-1 h-fit shadow-xl shadow-gray-400 rounded-xl p-4">
                   <div className="p-2">
