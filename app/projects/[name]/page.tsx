@@ -23,7 +23,7 @@ const projects = [
       "Google API",
     ],
     imageName: "CHATGPT-PJ.png",
-    demoURL: "https://my-chatgpt-cg.vercel.app/",
+    demoURL: "https://chatgpt-clone-cr.vercel.app/",
     codeURL: "https://github.com/CarlosPProjects/chatgpt-clone-cr"
   },
   {
