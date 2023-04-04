@@ -25,6 +25,11 @@ const Projects = () => {
             description="Wordpress"
             nameImg="DIVERFY"
           />
+          <ProjectBlock
+            title="Three-Design"
+            description="Next.js - Node"
+            nameImg="THREE"
+          />
         </div>
       </div>
     </div>
