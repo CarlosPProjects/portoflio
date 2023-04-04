@@ -24,7 +24,7 @@ const projects = [
     ],
     imageName: "CHATGPT-PJ.png",
     demoURL: "https://chatgpt-clone-cr.vercel.app/",
-    codeURL: "https://github.com/CarlosPProjects/chatgpt-clone-cr"
+    codeURL: "https://github.com/CarlosPProjects/chatgpt-clone-cr",
   },
   {
     id: "project_02",
@@ -38,7 +38,7 @@ const projects = [
     languages: ["Next.js", "Typescript", "Tailwind", "React", "Weather API"],
     imageName: "WEATHER-PJ.png",
     demoURL: "https://min-weather-app.vercel.app/",
-    codeURL: "https://github.com/CarlosPProjects/min-weather-app"
+    codeURL: "https://github.com/CarlosPProjects/min-weather-app",
   },
   {
     id: "project_03",
@@ -52,7 +52,27 @@ const projects = [
     languages: ["Wordpress", "WooCommerce", "WCFM", "Yith", "WPBakery"],
     imageName: "DIVERFY-PJ.png",
     demoURL: "https://diverfy.com/",
-    codeURL: ""
+    codeURL: "",
+  },
+  {
+    id: "project_04",
+    name: "Three-Design",
+    subtitle: "Next.js - Node - Express ",
+    description: [
+      "This interactive web application offers you the possibility to customize a 3D model of a T-shirt. The website uses Three.js to load and display the 3D model of the T-shirt, which allows the user to change the color, add or remove logos, and create a customized design in real-time. Additionally, the use of the Dall-E API enables the user to generate a personalized image and automatically place it on the T-shirt.",
+      "During the development of this project, I learned how to implement a server using Node and Express. This technology allowed me to create API endpoints for the exchange of data between the application and the server, improving the speed and efficiency of the website.",
+    ],
+    languages: [
+      "Next.js",
+      "Typescript",
+      "Tailwind",
+      "Node",
+      "Express",
+      "Dall-E API",
+    ],
+    imageName: "THREE-DESIGN.png",
+    demoURL: "https://threejs-dalle-model-f36o.vercel.app/",
+    codeURL: "https://github.com/CarlosPProjects/threejs__dalle__model",
   },
 ];
 
