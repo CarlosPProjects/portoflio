@@ -72,7 +72,7 @@ const projects = [
     ],
     imageName: "THREE-PJ.png",
     demoURL: "https://threejs-dalle-model-f36o.vercel.app/",
-    codeURL: "https://github.com/CarlosPProjects/threejs__dalle__model",
+    codeURL: "",
   },
 ];
 
