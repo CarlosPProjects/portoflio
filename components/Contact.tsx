@@ -32,6 +32,7 @@ const Contact = () => {
   const form = useRef<HTMLFormElement>(null);
   const [result, setResult] = useState(false);
   const notify = () => toast("Message sent successfully!");
+  const { EMAIL_JS_PUBLIC_KEY } = process.env;
 
   const sendEmail = (e: any) => {
     e.preventDefault();
@@ -42,7 +43,7 @@ const Contact = () => {
           "service_748epf7",
           "template_zhtuj5a",
           form.current,
-          "MkH0sbh-cWU1XdDVQ"
+          EMAIL_JS_PUBLIC_KEY
         )
         .then(
           (result) => {
